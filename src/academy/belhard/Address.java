@@ -23,4 +23,13 @@ public class Address {
     public int getHouse() {
         return house;
     }
+
+    @Override
+    public String toString() {
+        return "Address{" +
+                "city='" + city + '\'' +
+                ", street='" + street + '\'' +
+                ", house=" + house +
+                '}';
+    }
 }
